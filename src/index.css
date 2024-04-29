@@ -26,6 +26,7 @@ body {
 
   color: var(--color-text);
   background-color: var(--color-background-900);
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
   padding: 2.4rem;
 }
 
@@ -329,19 +330,78 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   border: none;
-  /* background-color: var(--color-text); */
-  background-color: #fff;
+  background-color: var(--color-text);
+  background-color: rgba(0, 0, 0, 0.5);
   color: var(--color-background-500);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 20px rgba(126, 104, 104, 0.8);
   font-family: sans-serif;
-  font-size: 2.4rem;
+  font-size: 20px;
   font-weight: bold;
+  color: white;
   cursor: pointer;
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+/* .btn-back {
+  top: 0.6rem;
+  left: 0.6rem;
+  height: 3.2rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  height: 3em;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+}
+
+.btn-back > svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+}
+
+.btn-back:hover > svg {
+  font-size: 1.2em;
+  transform: translateX(-5px);
+}
+
+.btn-back:hover {
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+  transform: translateY(-2px);
+} */
+
+/* .btn-back {
+  display: inline-block;
+  min-width: 130px;
+  padding: 0 33px;
+  height: 42px;
+  line-height: 36px;
+  border-radius: 42px;
+  font-size: 10px;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Montserrat, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: #333435;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.25s ease-out, box-shadow 0.25s ease;
+} */
 
 /*
 SPACING SYSTEM (px)
